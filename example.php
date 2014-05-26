@@ -36,7 +36,7 @@
  * SoapClient.class.php with XmlrpcClient.class.php and SoftLayer_SoapClient
  * with SoftLayer_XmlrpcClient.
  */
-require_once dirname(__FILE__) . '/SoftLayer/SoapClient.class.php';
+require_once dirname(__FILE__) . '/src/SoftLayer/SoapClient.class.php';
 
 /**
  * It's possible to define your SoftLayer API username and key diredtly in the

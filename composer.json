@@ -5,6 +5,8 @@
         "php": ">=5.2.3"
     },
     "autoload": {
-        "classmap": ["SoftLayer/SoapClient.class.php", "SoftLayer/XmlrpcClient.class.php"]
+        "psr-0": {
+            "Softlayer": "app/libraries/src"
+        }
     }
 }
