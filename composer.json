@@ -1,0 +1,10 @@
+{
+    "name": "howard1982/softlayer-api-php-client",
+    "description": "add softlayer/softlayer-api-php-client to composer",
+    "require": {
+        "php": ">=5.2.3"
+    },
+    "autoload": {
+        "classmap": ["SoftLayer\SoapClient.class.php", "SoftLayer\XmlrpcClient.class.php"]
+    }
+}
