@@ -54,7 +54,7 @@ if (version_compare(PHP_VERSION, '5', '<')) {
  * @license     http://sldn.softlayer.com/article/License
  * @link        http://sldn.softlayer.com/article/The_SoftLayer_API The SoftLayer API
  */
-class Softlayer_XmlrpcClient
+class SoftLayer_XmlrpcClient
 {
     /**
      * Your SoftLayer API username. You may overide this value when calling

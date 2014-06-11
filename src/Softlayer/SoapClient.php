@@ -61,7 +61,7 @@ if (version_compare(PHP_VERSION, '5.2.3', '<')) {
  * @link        http://sldn.softlayer.com/article/The_SoftLayer_API The SoftLayer API
  * @see         SoftLayer_SoapClient_AsynchronousAction
  */
-class Softlayer_SoapClient extends SoapClient
+class SoftLayer_SoapClient extends SoapClient
 {
     /**
      * Your SoftLayer API username. You may overide this value when calling
